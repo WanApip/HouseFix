@@ -1,0 +1,99 @@
+body { 
+    font-family: 'Poppins', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+.header { 
+    background-color: #734d26; 
+    padding: 20px 50px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-bottom: 1px solid #ddd; 
+}
+/* Eye-catching premium styling for the Welcome logo */
+.logo { 
+    font-size: 26px; 
+    font-weight: 700; 
+    color: #f8eed3; 
+    letter-spacing: -0.5px;
+}
+/* Clean and prominent styling for Services and Login links */
+.nav-links a { 
+    margin-left: 25px; 
+    text-decoration: none; 
+    color: #f8eed3; 
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover { 
+    color: #ffffff; 
+}
+.main { 
+    text-align: center; 
+    padding: 40px 20px; 
+    flex: 1; 
+}
+.main-container { 
+    display: flex; 
+    justify-content: center; 
+    gap: 40px; 
+    padding: 20px; 
+}
+.action-card { 
+    border: 1px solid #ccc; 
+    padding: 30px; 
+    width: 300px; 
+    text-align: center; 
+    border-radius: 8px; 
+    background-color: #fbf7e9; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.action-card h3 {
+    font-weight: 600;
+    color: #734d26;
+    margin-top: 0;
+}
+.action-card p {
+    font-size: 14px;
+    color: #555;
+}
+.btn { 
+    width: 100%; 
+    padding: 12px; 
+    background-color: #734d26; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover { 
+    background-color: #5a3b1e;
+}
+ 
+/* Footer Styles */
+.footer { 
+    background-color: #734d26; 
+    color: #f8eed3; 
+    text-align: center; 
+    padding: 20px; 
+    margin-top: auto; 
+    font-size: 14px; 
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
